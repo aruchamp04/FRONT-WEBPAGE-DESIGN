@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+   <link rel="stylesheet" href ="ak.css">
+   <h1>WELCOME</h1>
+   <h2>வணக்கம்</h2>
+   <h3>स्वागत हे</h3>
+</h1>
+<script src ="ar2 .js"></script>
+<a href ="ar 3.html"></a>
+</head>
+<body>
+<form id ="passform" action="ar 3.html" onsubmit =" return passcheck()">
+   <p align ="center">PLEASE ENTER THE PASSWORD</p><div id ="pk"><input type ="password" required id ="pass1">
+    <input type ="submit"></div>
+</form>
+
+</head>
+<body>
+    <p align ="center">Love Your Job But Don't Love Your Company Because You May Not Know When Your Company Stops Loving You <br><br> - Abdul kalam</p>
+  
+
+    
+</body>
+</html>
+
+h1{
+    color:aquamarine;
+    font-size: 120px;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(255, 50, 214, 0.4),rgb(8, 255, 255),rgba(67, 6, 67, 0.867),rgb(229, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;}
+h2{
+    color:aquamarine;
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(255, 50, 214, 0.4),rgb(8, 255, 255),rgba(67, 6, 67, 0.867),rgb(229, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+
+}
+h3{
+    color:aquamarine;
+    font-size: 70px;
+    text-align: center;
+    background: linear-gradient(90deg,rgba(255, 50, 214, 0.4),rgb(8, 255, 255),rgba(67, 6, 67, 0.867),rgb(229, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text
+}
+p{
+    color:crimson;
+    font-size: 20px;}
+#pk{
+    text-align: center;
+    background-color: darkmagenta;
+}
+body{
+    border: thick solid #6666;
+    box-shadow: inset 0 0 15px rgb(0, 0, 0);
+   background-color: rgb(251, 255, 125);
+}
+#re{
+    color: blue;
+}
+
+        var password = "arunlegekinai";
+
+function passcheck(){
+
+    if(document.getElementById('pass1').value !=password){
+        alert("wrong password,please try again , தவறு மீண்டும் சரிபார்க்கவும்");
+        return false;
+    }
+
+
+    if(document.getElementById('pass1').value ==password){
+        alert("valid, welcome you , செல்லுபடியாகும் உங்களை வரவேற்கிறோம்");
+    }
+}
